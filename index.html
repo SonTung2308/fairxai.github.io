@@ -324,6 +324,40 @@
   </div>
 </section>
 <!-- End pipeline figure -->
+<!-- Counterfactual Examples -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Counterfactual Examples</h2>
+      <div class="columns is-centered">
+        <div class="column is-full">
+          <img src="static/images/counterfactuals.png" alt="Examples of counterfactual image generation with modified race, gender, and age attributes" style="width: 100%; height: auto;"/>
+          <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
+            <strong>Figure 2:</strong> High-quality attribute manipulation while preserving identity-irrelevant features such as pose, expression, and lighting conditions.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End counterfactual examples --><!-- Grad-CAM Analysis -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Grad-CAM Analysis</h2>
+      <div class="columns is-centered">
+        <div class="column is-full">
+          <img src="static/images/gradcam_compare.png" alt="Grad-CAM heatmap comparison showing attention patterns for baseline and debiased models" style="width: 100%; height: auto;"/>
+          <h2 class="subtitle has-text-centered" style="margin-top: 1rem;">
+            <strong>Figure 3:</strong> Debiased model shows concentrated activation on facial regions, reducing reliance on spurious background cues compared to the baseline model.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Grad-CAM analysis -->
+
 
 <!-- Results carousel -->
 <section class="hero is-small">
@@ -355,18 +389,7 @@
         <strong>Fairness Metrics Evolution:</strong> Demographic Parity stabilizes to 0.41, Equalized Odds shows consistent downward trend to 0.465, and Fairness-aware Score demonstrates 30% improvement.
       </h2>
     </div>
-    <div class="item">
-      <img src="static/images/counterfactuals.png" alt="Examples of counterfactual image generation with modified race, gender, and age attributes" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        <strong>Counterfactual Examples:</strong> High-quality attribute manipulation while preserving identity-irrelevant features such as pose, expression, and lighting conditions.
-      </h2>
-    </div>
-    <div class="item">
-      <img src="static/images/gradcam_compare.png" alt="Grad-CAM heatmap comparison showing attention patterns for baseline and debiased models" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        <strong>Grad-CAM Analysis:</strong> Debiased model shows concentrated activation on facial regions, reducing reliance on spurious background cues compared to the baseline model.
-      </h2>
-    </div>
+   
   </div>
 </div>
 </div>
